@@ -1,0 +1,68 @@
+<hapnin-sports dateCreated='Tue Dec 04 16:39:30 GMT 2018'>
+  <feeds>
+    <feed name='test feed 1' direction='OUTBOUND' parser='' scheduleType='MANUAL' enabled='true' maxRefreshAttempts='3' feedLastExecuteTime='1534803319697'>
+      <strategy name='Default Script' type='SCRIPT'>
+        <properties />
+      </strategy>
+      <properties>
+        <property key='githubRepo' value='hapnin-scripts' />
+        <property key='githubSha' value='020293f87e46e8476fb11504a1050f1b49c84074' />
+        <property key='githubPath' value='test/line_ending_test.groovy' />
+        <property key='githubAccount' value='stainlesscode' />
+        <property key='githubBranch' value='master' />
+      </properties>
+    </feed>
+    <feed name='test feed 2' direction='OUTBOUND' parser='' scheduleType='MANUAL' enabled='true' maxRefreshAttempts='3' feedLastExecuteTime='1540840778127'>
+      <strategy name='Default Script' type='SCRIPT'>
+        <properties />
+      </strategy>
+      <properties>
+        <property key='githubRepo' value='hapnin_backup_test' />
+        <property key='githubPath' value='/scripts/test_feed_2.groovy' />
+        <property key='githubAccount' value='benfreefly' />
+      </properties>
+    </feed>
+    <feed name='test feed 3' direction='OUTBOUND' parser='' scheduleType='MANUAL' enabled='true' maxRefreshAttempts='3' feedLastExecuteTime='1540923151696'>
+      <strategy name='Default Script' type='SCRIPT'>
+        <properties />
+      </strategy>
+      <properties>
+        <property key='githubRepo' value='hapnin_backup_test' />
+        <property key='githubPath' value='/scripts/test_feed_3.groovy' />
+        <property key='githubAccount' value='benfreefly' />
+      </properties>
+    </feed>
+    <feed name='test feed 4' direction='OUTBOUND' parser='' scheduleType='MANUAL' enabled='true' maxRefreshAttempts='3' feedLastExecuteTime='0'>
+      <strategy name='Default Script' type='SCRIPT'>
+        <properties />
+      </strategy>
+      <properties>
+        <property key='githubRepo' value='hapnin_backup_test' />
+        <property key='githubPath' value='/scripts/test_feed_4.groovy' />
+        <property key='githubAccount' value='benfreefly' />
+      </properties>
+    </feed>
+    <feed name='test concurrent' direction='OUTBOUND' parser='' scheduleType='MANUAL' enabled='true' maxRefreshAttempts='3' feedLastExecuteTime='1541198286016'>
+      <strategy name='Default Script' type='SCRIPT'>
+        <properties />
+      </strategy>
+      <properties>
+        <property key='distributionAllowed' value='true' />
+        <property key='githubRepo' value='hapnin_backup_test' />
+        <property key='githubPath' value='/scripts/test_concurrent.groovy' />
+        <property key='concurrencyAllowed' value='true' />
+        <property key='githubAccount' value='benfreefly' />
+      </properties>
+    </feed>
+    <feed name='run multi' direction='OUTBOUND' parser='' scheduleType='MANUAL' enabled='true' maxRefreshAttempts='3' feedLastExecuteTime='1541198286042'>
+      <strategy name='Default Script' type='SCRIPT'>
+        <properties />
+      </strategy>
+      <properties>
+        <property key='githubRepo' value='hapnin_backup_test' />
+        <property key='githubPath' value='/scripts/run_multi.groovy' />
+        <property key='githubAccount' value='benfreefly' />
+      </properties>
+    </feed>
+  </feeds>
+</hapnin-sports>
