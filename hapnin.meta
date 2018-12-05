@@ -1,4 +1,4 @@
-<hapnin-sports dateCreated='Wed Dec 05 18:21:36 GMT 2018'>
+<hapnin-sports dateCreated='Wed Dec 05 18:35:28 GMT 2018'>
   <feeds>
     <feed name='test feed 1' direction='OUTBOUND' parser='' scheduleType='MANUAL' enabled='true' maxRefreshAttempts='3' feedLastExecuteTime='1534803319697'>
       <strategy name='Default Script' type='SCRIPT'>
@@ -6,7 +6,7 @@
       </strategy>
       <properties>
         <property key='githubRepo' value='hapnin-scripts' />
-        <property key='githubSha' value='020293f87e46e8476fb11504a1050f1b49c84074' />
+        <property key='githubSha' value='e8c99873905bde5b6610dcbe4d7d7fe4be0951c4' />
         <property key='githubPath' value='test/line_ending_test.groovy' />
         <property key='githubAccount' value='stainlesscode' />
         <property key='githubBranch' value='master' />
@@ -42,6 +42,7 @@
       </strategy>
       <properties>
         <property key='githubRepo' value='hapnin_backup_test' />
+        <property key='githubSha' value='9daeafb9864cf43055ae93beb0afd6c7d144bfa4' />
         <property key='githubPath' value='/scripts/test_feed_4.groovy' />
         <property key='githubAccount' value='benfreefly' />
         <property key='githubBranch' value='master' />
@@ -54,6 +55,7 @@
       <properties>
         <property key='distributionAllowed' value='true' />
         <property key='githubRepo' value='hapnin_backup_test' />
+        <property key='githubSha' value='a158969726fd3c8091caf2b0bd255e850fc63ede' />
         <property key='githubPath' value='/scripts/test_concurrent.groovy' />
         <property key='concurrencyAllowed' value='true' />
         <property key='githubAccount' value='benfreefly' />
@@ -66,6 +68,7 @@
       </strategy>
       <properties>
         <property key='githubRepo' value='hapnin_backup_test' />
+        <property key='githubSha' value='23ff3cb1359089b9c59da68335c0044fb48a538e' />
         <property key='githubPath' value='/scripts/run_multi.groovy' />
         <property key='githubAccount' value='benfreefly' />
         <property key='githubBranch' value='master' />
@@ -77,6 +80,7 @@
       </strategy>
       <properties>
         <property key='githubRepo' value='hapnin_backup_test' />
+        <property key='githubSha' value='30d74d258442c7c65512eafab474568dd706c430' />
         <property key='githubPath' value='/scripts/test_feed_5.groovy' />
         <property key='githubAccount' value='benfreefly' />
         <property key='githubBranch' value='master' />
@@ -88,7 +92,7 @@
       </strategy>
       <properties>
         <property key='githubRepo' value='hapnin_backup_test' />
-        <property key='githubSha' value='5fc47c4ffc1dbfad8be9c204996f164d108c6aed' />
+        <property key='githubSha' value='1f28f8446b9ebbcd7a4bbd357fd50ed7d3be3944' />
         <property key='githubPath' value='/scripts/test_feed_6.groovy' />
         <property key='githubAccount' value='benfreefly' />
         <property key='githubBranch' value='master' />
