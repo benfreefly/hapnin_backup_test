@@ -1,4 +1,4 @@
-<hapnin-sports dateCreated='Wed Dec 05 18:36:30 GMT 2018'>
+<hapnin-sports dateCreated='Wed Dec 05 19:32:00 GMT 2018'>
   <feeds>
     <feed name='test feed 1' direction='OUTBOUND' parser='' scheduleType='MANUAL' enabled='true' maxRefreshAttempts='3' feedLastExecuteTime='1534803319697'>
       <strategy name='Default Script' type='SCRIPT'>
