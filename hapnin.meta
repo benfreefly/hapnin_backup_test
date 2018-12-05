@@ -1,4 +1,4 @@
-<hapnin-sports dateCreated='Wed Dec 05 19:32:00 GMT 2018'>
+<hapnin-sports dateCreated='Wed Dec 05 19:33:00 GMT 2018'>
   <feeds>
     <feed name='test feed 1' direction='OUTBOUND' parser='' scheduleType='MANUAL' enabled='true' maxRefreshAttempts='3' feedLastExecuteTime='1534803319697'>
       <strategy name='Default Script' type='SCRIPT'>
@@ -92,7 +92,7 @@
       </strategy>
       <properties>
         <property key='githubRepo' value='hapnin_backup_test' />
-        <property key='githubSha' value='1f28f8446b9ebbcd7a4bbd357fd50ed7d3be3944' />
+        <property key='githubSha' value='37ca56ea790c98d5dcfdc95e09965a4099151d73' />
         <property key='githubPath' value='/scripts/test_feed_6.groovy' />
         <property key='githubAccount' value='benfreefly' />
         <property key='githubBranch' value='master' />
