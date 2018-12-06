@@ -98,5 +98,17 @@
         <property key='githubBranch' value='master' />
       </properties>
     </feed>
+    <feed name='test feed 7' direction='OUTBOUND' parser='' scheduleType='MANUAL' enabled='true' maxRefreshAttempts='3' feedLastExecuteTime='0'>
+      <strategy name='Default Script' type='SCRIPT'>
+        <properties />
+      </strategy>
+      <properties>
+        <property key='githubRepo' value='hapnin_backup_test' />
+        <property key='githubSha' value='37ca56ea790c98d5dcfdc95e09965a4099151d73' />
+        <property key='githubPath' value='/scripts/test_feed_7.groovy' />
+        <property key='githubAccount' value='benfreefly' />
+        <property key='githubBranch' value='master' />
+      </properties>
+    </feed>
   </feeds>
 </hapnin-sports>
