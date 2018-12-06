@@ -104,7 +104,7 @@
       </strategy>
       <properties>
         <property key='githubRepo' value='hapnin_backup_test' />
-        <property key='githubSha' value='37ca56ea790c98d5dcfdc95e09965a4099151d73' />
+        <property key='githubSha' value='30d74d258442c7c65512eafab474568dd706c430' />
         <property key='githubPath' value='/scripts/test_feed_7.groovy' />
         <property key='githubAccount' value='benfreefly' />
         <property key='githubBranch' value='master' />
