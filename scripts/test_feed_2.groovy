@@ -1,1 +1,11 @@
-throw new RuntimeException("test error")
+file
+with
+multiple
+lines
+so
+we
+can
+test
+for
+phantom
+changes
