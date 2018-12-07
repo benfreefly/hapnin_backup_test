@@ -1,4 +1,4 @@
-<hapnin-sports dateCreated='Thu Dec 06 21:50:38 GMT 2018'>
+<hapnin-sports dateCreated='Fri Dec 07 00:25:24 GMT 2018'>
   <feeds>
     <feed name='test feed 1' direction='OUTBOUND' parser='' scheduleType='MANUAL' enabled='true' maxRefreshAttempts='3' feedLastExecuteTime='1534803319697'>
       <strategy name='Default Script' type='SCRIPT'>
@@ -6,7 +6,7 @@
       </strategy>
       <properties>
         <property key='githubRepo' value='hapnin-scripts' />
-        <property key='githubSha' value='569f082762629dcc5659b2f052dc4a3fbee3a1b9' />
+        <property key='githubSha' value='6484b357520d3eb474d548f2651756449312cd30' />
         <property key='githubPath' value='test/line_ending_test.groovy' />
         <property key='githubAccount' value='stainlesscode' />
         <property key='githubBranch' value='master' />
@@ -30,7 +30,7 @@
       </strategy>
       <properties>
         <property key='githubRepo' value='hapnin_backup_test' />
-        <property key='githubSha' value='2f478d2350879551e295aa56f20ee7de1d0b1107' />
+        <property key='githubSha' value='d76c9aa2667bd25326df8dffce4e9204c5e19300' />
         <property key='githubPath' value='/scripts/test_feed_3.groovy' />
         <property key='githubAccount' value='benfreefly' />
         <property key='githubBranch' value='master' />
@@ -42,7 +42,7 @@
       </strategy>
       <properties>
         <property key='githubRepo' value='hapnin_backup_test' />
-        <property key='githubSha' value='9daeafb9864cf43055ae93beb0afd6c7d144bfa4' />
+        <property key='githubSha' value='30d74d258442c7c65512eafab474568dd706c430' />
         <property key='githubPath' value='/scripts/test_feed_4.groovy' />
         <property key='githubAccount' value='benfreefly' />
         <property key='githubBranch' value='master' />
@@ -104,7 +104,7 @@
       </strategy>
       <properties>
         <property key='githubRepo' value='hapnin_backup_test' />
-        <property key='githubSha' value='038d718da6a1ebbc6a7780a96ed75a70cc2ad6e2' />
+        <property key='githubSha' value='9a2c7732fab5bcd73ea3ed52d2d9599a4cc47666' />
         <property key='githubPath' value='scripts/test_create_in_github.groovy' />
         <property key='githubAccount' value='benfreefly' />
         <property key='githubBranch' value='master' />
