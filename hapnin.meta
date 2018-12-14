@@ -1,4 +1,4 @@
-<hapnin-sports dateCreated='Fri Dec 14 23:30:01 GMT 2018'>
+<hapnin-sports dateCreated='Fri Dec 14 23:33:17 GMT 2018'>
   <feeds>
     <feed name='testing' direction='OUTBOUND' parser='' scheduleType='MANUAL' enabled='true' maxRefreshAttempts='3' feedLastExecuteTime='1544761507267'>
       <strategy name='Default Script' type='SCRIPT'>
@@ -140,6 +140,28 @@
         <property key='githubRepo' value='hapnin_backup_test' />
         <property key='githubSha' value='8c17aae5c78d7972198448b443e948ba766a70e8' />
         <property key='githubPath' value='/scripts/testing_3.groovy' />
+        <property key='githubAccount' value='benfreefly' />
+      </properties>
+    </feed>
+    <feed name='testing 4' direction='OUTBOUND' parser='' scheduleType='MANUAL' enabled='true' maxRefreshAttempts='3' feedLastExecuteTime='0'>
+      <strategy name='Default Script' type='SCRIPT'>
+        <properties />
+      </strategy>
+      <properties>
+        <property key='githubRepo' value='hapnin_backup_test' />
+        <property key='githubSha' value='4f6d8c1261906a35b2d7094972ed4ddfadf92565' />
+        <property key='githubPath' value='/scripts/testing_4.groovy' />
+        <property key='githubAccount' value='benfreefly' />
+      </properties>
+    </feed>
+    <feed name='testing 5' direction='OUTBOUND' parser='' scheduleType='MANUAL' enabled='true' maxRefreshAttempts='3' feedLastExecuteTime='0'>
+      <strategy name='Default Script' type='SCRIPT'>
+        <properties />
+      </strategy>
+      <properties>
+        <property key='githubRepo' value='hapnin_backup_test' />
+        <property key='githubSha' value='cce296556e5bdaad2371d44f80c858a511dff5b5' />
+        <property key='githubPath' value='/scripts/testing_5.groovy' />
         <property key='githubAccount' value='benfreefly' />
       </properties>
     </feed>
